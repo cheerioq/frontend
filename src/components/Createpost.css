@@ -1,0 +1,45 @@
+.Createpost{
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 8px;
+
+}
+.main-div{
+    border-top: 1px solid rgb(173, 173, 173);
+}
+.post-header{
+    display: flex;
+}
+#post-btn {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  #post-btn:hover {
+    background-color: #45a049; 
+  }
+.details{
+    border-top: 1px solid rgb(173, 173, 173);
+}
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+#output{
+    margin-top: 15px;
+    width: 300px;
+    border: none;
+    outline: none;
+}

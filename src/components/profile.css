@@ -1,0 +1,103 @@
+.profile {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-frame {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic-container {
+    position: relative;
+    width: 120px; /* Adjust according to your design */
+    height: 120px; /* Adjust according to your design */
+  }
+  
+  .camera-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color of the icon */
+    cursor: pointer;
+    z-index: 1; /* Ensure the icon is above the image */
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-pic:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-data {
+    flex: 1;
+  }
+  
+  .profile-info {
+    margin-top: 10px;
+  }
+  
+  .profile-info p {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  .changePic {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .upload-btn {
+    cursor: pointer;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-btn:hover {
+    background-color: #1877e6;
+  }
+  

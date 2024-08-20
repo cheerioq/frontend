@@ -1,0 +1,61 @@
+.signin {
+    background-image: url("https://i.postimg.cc/bJB1T1dR/ubicu-se.png");
+    background-size: 100% 100%;
+    margin: 80px;
+    flex: 1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.signuplogo {
+    width: 200px;
+    object-fit: contain;
+    padding: 10px 0px;
+}
+
+.loginForm2 {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px; /* Adjust this margin as needed */
+    width: 320px;
+    border: 1px solid #ddd; /* Light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+#login-btn {
+    background-color: #1773EA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust this margin as needed */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#login-btn:hover {
+    background-color: #125dab; 
+}
+
+input {
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px; /* Adjust this margin as needed */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}

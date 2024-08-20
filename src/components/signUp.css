@@ -1,0 +1,79 @@
+.signUp {
+    background-image: url("https://i.postimg.cc/bJB1T1dR/ubicu-se.png");
+    background-size: 100% 100%;
+
+    flex: 2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 800px;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signuplogo {
+    width: 150px; 
+    height: 150px; 
+}
+
+.loginPara {
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#submit-btn {
+    background-color: #1773EA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #125dab;
+}
+
+.form2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    margin-top: 200px;
+    max-width: 400px;
+    width: 100%;
+    
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
